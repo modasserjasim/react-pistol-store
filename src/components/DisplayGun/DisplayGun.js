@@ -10,7 +10,7 @@ const DisplayGun = (props) => {
     return (
         <div>
             <div className="card bg-base-100 shadow-xl">
-                <figure><img className='w-full h-72' src={img} alt="Shoes" /></figure>
+                <figure><img className='w-full h-auto md:h-72' src={img} alt="Shoes" /></figure>
                 <div className="card-body">
                     <h2 className="card-title">
                         {name.length < 15 ? name : name.slice(0, 18)}
